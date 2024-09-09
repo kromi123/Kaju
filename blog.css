@@ -9,11 +9,11 @@
 
 .topbar {
     height: auto; /* Full-height: remove this if you want "auto" height */
-    width: 1110px;/* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
+    width: 96%; /* Set the width of the sidebar */
+    max-width: 2000px;
+    position: fixed;
     top: 0; /* Stay at the top */
-    left: 270px;
+    left: 0px;
     background-image: url('blackbg.jpg');
     background-size: cover;
     overflow-x: hidden; /* Disable horizontal scroll */
@@ -23,19 +23,12 @@
     border-radius: 25px;
 }
 
-.sidebar {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 200px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 10px;
-    background-image: url('blackbg.jpg');
-    background-size: cover;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding: 20px;
-    border: 7px, solid white;
-    border-radius: 25px;
+.button {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
 }
 
 .sidebar img {
@@ -49,7 +42,11 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 80%;
+    max-width: 200px;
 }
+
+
 
 .displaysection1 {
     margin-top: 150px;
@@ -72,6 +69,9 @@
 
 }
 
+
+
+
 body {
     background-color:black;
     padding: 30px;
@@ -83,12 +83,13 @@ body {
 .home-content {
 
     background-color: white;
-    width:1100px;
-    height: 450px;
+    width:96%;
+    max-width: 2000px;
+    height: 500px;
     max-height: 1000px;
     position: fixed;
-    left: 280px;
-    top:230px;
+    left: 0px;
+    top:195px;
     border-radius: 20px;
 
     overflow-y: auto;
@@ -106,7 +107,8 @@ body {
 
 .hrclass_1 {
 
-    width: 1000px;
+    width: 96%;
+    max-width: 2000px;
     height: 9px;
     background-color: gray;
     border-radius:20px;
@@ -140,6 +142,8 @@ body {
 
     border: 5px, solid gray;
     border-radius: 20px;
+    width: 96%;
+    max-width: 2000px;
 
 }
 
@@ -151,7 +155,8 @@ body {
 .thumbnail {
 
     padding: 10px;
-    width: 170px;
+    width: 96%;
+    max-width: 170px;
     text-align: center;
     border-radius: 8px;
 
@@ -183,14 +188,16 @@ body {
 
 .thumbnail-img {
 
-    width: 170px;
+    width: 96%;
+    max-width: 170px;
     border-radius: 8px;
 }
 
 .highlight_thumbnail
 {
     padding: 10px;
-    width: 570px;
+    width: 96%;
+    max-width:570px;
     text-align: left;
     border-radius: 8px;
 
@@ -198,7 +205,9 @@ body {
 
 .thumbnail-large {
 
-    width:570px;
+
+    width: 96%;
+    max-width:570px;
     border-radius: 8px;
 
 
