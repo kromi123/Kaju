@@ -1,0 +1,238 @@
+
+@font-face {
+    font-family: "GauFontPopMagic";
+    src: url(file:///Users/akrammohamed/Downloads/GAU_pop_magic.TTF);
+}
+
+
+
+
+.topbar {
+    height: auto; /* Full-height: remove this if you want "auto" height */
+    width: 1110px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 270px;
+    background-image: url('blackbg.jpg');
+    background-size: cover;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    padding: 20px;
+    border: 7px, solid white;
+    border-radius: 25px;
+}
+
+.sidebar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 200px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 10px;
+    background-image: url('blackbg.jpg');
+    background-size: cover;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding: 20px;
+    border: 7px, solid white;
+    border-radius: 25px;
+}
+
+.sidebar img {
+    
+    padding: 6px 8px 6px 16px;
+    
+}
+
+.centerlogo {
+
+    display: block;
+    margin-right: auto;
+    padding: 10px;
+    
+}
+
+.displaysection1 {
+    margin-top: 150px;
+    padding: 30px;
+
+    
+}
+
+.displaysection1 h1 {
+    font-size: 70px;
+    text-align: right;
+}
+
+.contact {
+    padding: 20px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+
+    margin: 20px 0;
+
+}
+
+body {
+    background-color:black
+
+
+}
+
+.review-page {
+
+    background-color: white;
+    width:1000px;
+    height: 500px;
+    max-height: 1100px;
+    position: fixed;
+    left: 280px;
+    top:125px;
+    border-radius: 20px;
+    overflow-y: auto;
+    padding: 40px;
+    left: 310px;
+    
+
+
+}
+
+.welcomeimg {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hrclass_1 {
+
+    width: 1000px;
+    height: 9px;
+    background-color: gray;
+    border-radius:20px;
+}
+
+.pharcustom1 {
+
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 7px;
+
+    font-size: 24px;
+
+}
+
+
+.reviewtext {
+
+    font-family: 'GauFontPopMagic';
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(213, 205, 205);
+    border-radius: 20px;
+    border-spacing: 9px;
+    border: 9px solid grey;
+  
+    
+}
+
+.fenceclass {
+
+    border: 5px, solid gray;
+    border-radius: 20px;
+
+}
+
+.changefont1 {
+
+    font-family: 'GauFontPopMagic';
+}
+
+.thumbnail {
+
+    padding: 10px;
+    width: 170px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.front_thumbnails {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: auto;
+    justify-content: center;
+}
+
+.thumbnail-img {
+
+    width: 170px;
+    border-radius: 8px;
+}
+
+.articlehead {
+
+    font-size: 40px;
+    font-family: "OCR-A BT";
+    
+
+}
+
+
+
+.hrclass_2 {
+
+    width: 1100px;
+    height: 5px;
+    background-color: gray;
+    border-radius:20px;
+    justify-content: center;
+}
+
+.articlephar {
+
+    font-family: "OCR-A BT";
+
+}
+
+.articlephar_2 {
+
+    font-family: monospace;
+    font-size: 19px;
+    word-spacing: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 30px;
+    
+
+}
+
+.articlehead_2 {
+
+    font-size: 30px;
+    font-family: monospace;
+    word-spacing: 9px;
+    padding: 40px;
+    
+
+}
+
+@font-face {
+    font-family:"OCR-A BT";
+    src: url(/Users/akrammohamed/Desktop/blogproj/OCR-a___.ttf);
+}
+
+
+@font-face {
+    font-family: "GauFontPopMagic";
+    src: url(file:///Users/akrammohamed/Downloads/GAU_pop_magic.TTF);
+}
+
+.footerclass {
+
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "GauFontPopMagic";
+
+}
